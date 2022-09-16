@@ -1,0 +1,39 @@
+[{
+        "route": "/Hello/test/:id2",
+        "method": "get",
+        "params": {
+            "controller": "MyController",
+            "action": "doSomething",
+            "id": ":id2"
+        },
+        "noAuth": true
+    },
+    {
+        "route": "/HelloWorld/:name",
+        "method": "post",
+        "params": {
+            "controller": "MyController",
+            "action": "helloWorld",
+            "name": ":name"
+        }
+    },
+    {
+        "route": "/TestNoAuth",
+        "method": "get",
+        "params": {
+            "controller": "Test",
+            "action": "test"
+        },
+        "noAuth": true
+    },
+    {
+        "route": "/TestNoAuth2/:name",
+        "method": "get",
+        "params": {
+            "controller": "Test",
+            "action": "test2",
+            "name": ":name"
+        },
+        "noAuth": true
+    }
+]

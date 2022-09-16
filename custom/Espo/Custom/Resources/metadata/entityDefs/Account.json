@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "manhtq": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "manhtq": {
+            "type": "belongsTo",
+            "foreign": "accounts",
+            "entity": "Manhtq",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

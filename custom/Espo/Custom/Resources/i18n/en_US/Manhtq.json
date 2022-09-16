@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "testvarchar": "Test_varchar",
+        "accounts": "Accounts"
+    },
+    "links": {
+        "accounts": "Accounts"
+    },
+    "labels": {
+        "Create Manhtq": "Create Manhtq"
+    },
+    "tooltips": {
+        "testvarchar": "Thử xem có chạy không"
+    }
+}

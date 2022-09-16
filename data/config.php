@@ -1,6 +1,6 @@
 <?php
 return [
-  'useCache' => true,
+  'useCache' => false,
   'jobMaxPortion' => 15,
   'jobRunInParallel' => false,
   'jobPoolConcurrencyNumber' => 8,
@@ -58,7 +58,8 @@ return [
     12 => 'Campaign',
     13 => 'KnowledgeBaseArticle',
     14 => 'Stream',
-    15 => 'User'
+    15 => 'User',
+    16 => 'Manhtq'
   ],
   'quickCreateList' => [
     0 => 'Account',
@@ -209,8 +210,8 @@ return [
   'passwordGenerateLength' => 10,
   'massActionIdleCountThreshold' => 100,
   'exportIdleCountThreshold' => 1000,
-  'cacheTimestamp' => 1663128270,
-  'microtime' => 1663128270.412534,
+  'cacheTimestamp' => 1663300634,
+  'microtime' => 1663300634.94548,
   'siteUrl' => 'http://localhost/espocrm-7-2-2',
   'fullTextSearchMinLength' => 4,
   'appTimestamp' => 1663128129

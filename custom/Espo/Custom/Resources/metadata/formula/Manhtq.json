@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "accountsNames\nifThen(CONDITION, CONSEQUENT)\naccountsNames"
+}

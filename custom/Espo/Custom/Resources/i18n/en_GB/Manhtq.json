@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "testvarchar": "Test_varchar",
+        "accounts": "Accounts"
+    },
+    "tooltips": {
+        "testvarchar": "Thử xem có chạy không"
+    },
+    "links": {
+        "accounts": "Accounts"
+    }
+}
